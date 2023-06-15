@@ -23,11 +23,11 @@
 # Version: 1.0
 #
 
-from django.conf.urls import url
+from django.urls import re_path
 from . import views
 
 urlpatterns = [
-    url(r'^error_404/$', views.error404, name="weberror404"),
-    url(r'^error_500/$', views.error500, name="weberror500"),
-    url(r'^warning/$', views.warning, name="weberrorwarn"),
+    re_path(r'^error_404/$', views.error404, name="weberror404"),
+    re_path(r'^error_500/$', views.error500, name="weberror500"),
+    re_path(r'^warning/$', views.warning, name="weberrorwarn"),
 ]
