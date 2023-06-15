@@ -1,3 +1,8 @@
+0.4.1 (June 2023)
+-----------------
+
+- Make app compatible with Django 4.0.x [#23](https://github.com/ome/omero-weberror/pull/23)
+
 0.4.0 (January 2020)
 --------------------
 
