@@ -40,7 +40,7 @@ setup(name="omero-weberror",
       version=VERSION,
       description="A Python plugin for OMERO.web",
       long_description=read('README.rst'),
-            classifiers=[
+      classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Environment :: Web Environment',
           'Framework :: Django',
